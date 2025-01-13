@@ -1,0 +1,159 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .header .highlight {
+    color: #6a5acd; /* Purple highlight */
+  }
+  
+  .header p {
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Dashboard Section */
+  .dashboard {
+    background-color: #E8EEFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-card {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .dashboard-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .stat {
+    display: inline-block;
+    width: 30%;
+    margin: 10px 0;
+  }
+  
+  .stat h3 {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .dashboard-image img {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+  /* Features Section */
+  .features {
+    margin-bottom: 40px;
+    text-align: center;
+
+  }
+  
+  .feature {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 1%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Call to Action */
+  .cta {
+    background-color: #6a5acd;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 40px;
+    position: relative;
+    clear: both;
+  }
+  
+  .cta-content {
+    float: left;
+    width: 60%;
+  }
+  
+  .cta h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .cta p {
+    margin-bottom: 20px;
+  }
+  
+  .cta .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .cta .btn.primary {
+    background-color: #fff;
+    color: #6a5acd;
+  }
+  
+  .cta .btn.secondary {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .cta-image {
+    float: right;
+    width: 35%;
+    text-align: center;
+  }
+  
+  .cta-image img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+  }
+  
+  
+  
